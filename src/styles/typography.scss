@@ -1,0 +1,51 @@
+// =========================================================
+// TYPOGRAPHY — базовый текст, заголовки и общие текстовые классы
+// =========================================================
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--fs-body);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: var(--fs-h1);
+}
+
+h2 {
+  font-size: var(--fs-h2);
+}
+
+h3 {
+  font-size: var(--fs-h3);
+}
+
+// Заголовок секции:  <h2 className="title">...</h2>
+.title {
+  font-size: var(--fs-h2);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+// Подзаголовок секции:  <p className="subtitle">...</p>
+.subtitle {
+  font-size: 18px;
+  color: var(--color-text-muted);
+  max-width: 640px;
+}
+
+.text-center {
+  text-align: center;
+}

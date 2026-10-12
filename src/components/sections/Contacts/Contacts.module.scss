@@ -1,0 +1,22 @@
+.list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 32px;
+
+  li {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 20px;
+  }
+
+  @include mq(md) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.label {
+  font-size: var(--fs-small);
+  color: var(--color-text-muted);
+}
