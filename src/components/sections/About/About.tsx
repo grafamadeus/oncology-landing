@@ -5,7 +5,7 @@ export function About() {
   const t = useTranslations('About');
 
   return (
-    <section id="about" className="section section--alt">
+    <section id="about" className=" section section--alt">
       <div className="container">
         <h2 className="title">{t('title')}</h2>
         <p className={styles.text}>{t('text')}</p>

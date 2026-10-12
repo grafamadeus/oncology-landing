@@ -5,14 +5,11 @@
 
 :root {
   // ---- Цвета ----
-  --color-bg: #ffffff;
-  --color-bg-alt: #f5f5f4;
-  --color-text: #1c1917;
-  --color-text-muted: #78716c;
-  --color-accent: #c2410c;
-  --color-accent-hover: #9a3412;
-  --color-white: #ffffff;
-  --color-border: #e7e5e4;
+  --bg: #f9fbfd;
+  --red: #c72d36;
+  --text: #000;
+  --grey: #f2f6f8;
+   
 
   // ---- Шрифты ----
   // --font-main задаётся в app/[locale]/layout.tsx через next/font

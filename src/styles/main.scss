@@ -24,11 +24,6 @@
   scroll-margin-top: var(--header-height);
 }
 
-// Секция с альтернативным фоном
-.section--alt {
-  background-color: var(--color-bg-alt);
-}
-
 // Скрыть визуально, но оставить для скринридеров и SEO
 .visually-hidden {
   position: absolute;
